@@ -1,7 +1,38 @@
+html{
+  scroll-behavior: smooth;
+}
 .main-body{
   margin: 0 auto;
   width: 75vw;
   
+}
+
+.backToTop{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #8dc53e !important;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 11%);
+  animation: bounce .8s linear 2s infinite alternate;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-4px);
+  }
 }
 
 @media screen and (max-width:800px) {
