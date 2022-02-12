@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdSchool } from 'react-icons/md';
 
 const Footer = () => {
   return (
