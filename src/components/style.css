@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 89;
+    background-color: #f7f7f7;
 
 }
 
@@ -53,13 +56,24 @@
     height: 322px;
 }
 .hero-tab .hero-bg{
-    background-color: #333;
+    background-color: #0d47a1;
     position: absolute;
     top: 70px;
     left: 0;
     width: 100vw;
     height: 322px;
     z-index: 1;
+    overflow: hidden;
+    
+}
+
+.particles{
+    position: relative;
+    height: 300px;
+    z-index: 2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .hero-tab h1{
     color: #fff;
@@ -67,8 +81,8 @@
     z-index: 5;
     padding-top: 60px;
     margin-bottom: 0;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 700;
 }
 .hero-tab p{
     color: #fff;
@@ -81,7 +95,6 @@
 
 @media screen and (max-width:800px) {
     .hero-tab .hero-bg{
-        background-color: #333;
         position: absolute;
         top: 120px;
         left: 0;
@@ -344,6 +357,12 @@
     margin: 10px;
     padding: 10px 0;
     width: 310px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.skill:hover{
+    box-shadow: none;
 }
 
 
