@@ -1,4 +1,4 @@
-import {Topbar, Hero,Footer, Summary, Experience, Certifications, Skills} from "./components"
+import {Topbar, Hero,Footer, Summary, Experience, Certifications, Skills, Projects} from "./components"
 import { MdVerticalAlignTop } from 'react-icons/md';
 import {
   HideOn
@@ -12,6 +12,7 @@ function App() {
         <Topbar/>
         <Hero/>
         <Summary/>
+        <Projects/>
         <Experience/>
         <Certifications/>
         <Skills/>

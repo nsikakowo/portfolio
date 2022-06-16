@@ -5,6 +5,12 @@ import './style.css'
 
 let eduArr = [
     {
+        title:'Google Africa Developer Training Program ',
+        degree: 'Google',
+        start_date: 2022,
+        // end_date: 2018,
+    },
+    {
         title:'React JS- Complete Guide for Frontend Web Development ',
         degree: 'Udemy',
         start_date: 2021,

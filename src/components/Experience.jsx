@@ -19,6 +19,19 @@ let workArr = [
         ]
     },
     {
+        startdate: 'March,2022',
+        enddate: 'May, 2022',
+        workplace: 'GenioPay',
+        workpost: 'Frontend developer (Remote)',
+        location: 'United Kingdom',
+        bullet:[
+            'worked on the Frontend of the company\'s flagship product dashboard',
+            'Developed the frontend with Reactjs',
+            'Provided support with maintenance and upkeep of front end applications.',
+            'Worked on the several modules in relation to the company\'s fintech product'
+        ]
+    },
+    {
         startdate: 'Nov, 2020',
         enddate: 'Nov, 2021',
         workplace: 'AFTJ Digitals Solutions',

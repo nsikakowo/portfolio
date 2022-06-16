@@ -5,20 +5,19 @@ import { IoMdCheckmark } from 'react-icons/io';
 import './style.css'
 
 let skillArr = [
-    'Reactjs',
     'Javascript',
+    'Reactjs',
     'CSS',
-    'HTML',
+    "TailwindCSS",
     'Nextjs',
+    'Web3',
+    'Solidity',
+    'NFTs',
     'Wordpress',
+
     'Shopify',
-    'Code Debugging',
     'Digital Marketing',
-    'Search Engine Optimization',
-    'Google Ads/Adsense',
     'Graphics Design',
-    'Local Networks',
-    'Hardware repairs'
 
 ]
 

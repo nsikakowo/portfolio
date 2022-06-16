@@ -12,9 +12,13 @@ const Footer = () => {
                 Nsikak Owo 
                     </p>
                      <p> Frontend Developer</p>
+                     <a style={{color:"#fff", marginTop:"10px"}} href="mailto:owonsikak@gmail.com">owonsikak@gmail.com</a>
             </div>
             <div className="footer-links">
-            <a href="mailto:owonsikak@gmail.com">owonsikak@gmail.com</a>
+            
+            <a href="http://github.com/nsikakowo" target='_blank' rel='noreferrer'>Go to Github Profile</a>
+            <a href="http://linkedin.com/in/nsikakowo" target='_blank' rel='noreferrer'>Go to Linkedin Profile</a>
+            <a href="https://opensea.io/collection/frontendtemplates" target='_blank' rel='noreferrer'>Go to opensea minting collections</a>
             </div>
             <div className="footer-links">
                 {/* <div className="tab-icon"><MdSchool/></div> */}

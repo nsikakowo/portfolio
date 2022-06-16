@@ -152,6 +152,70 @@
 
 /* Summary ends here */
 
+/* Project starts here */
+
+.projectlist{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.project{
+    margin: 10px 10px 30px;
+    width: 270px;
+}
+
+.project-img{
+    /* width: 33%; */
+    height: 350px;
+    background-color: #8dc53e;
+    border: 5px solid #71aa20;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.project ul{
+    text-align: center;
+    margin: 0 auto 30px;
+    padding-left: 0;
+}
+
+.project ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.project a{
+    outline: none;
+    border: none;
+    background-color: #8dc53e;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.project a:hover{
+    background-color: #71aa20;
+}
+
+/* @media screen and (max-width:800px) {
+    .projectlist
+} */
+
+/* Project ends here */
+
 /* experience starts here */
 .exp-tab{
     position: relative;
@@ -421,6 +485,7 @@
 .footer-links a{
     color: #333;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .footer-sections .footer-links:first-child{
