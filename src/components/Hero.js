@@ -99,7 +99,7 @@ const Hero = () => {
     />
           </div>
           <h1>Hi, I'm Nsikak OwO.</h1>
-          <p>Frontend Developer</p>
+          <p>Frontend Engineer</p>
       </main>
   );
 };
