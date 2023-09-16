@@ -8,16 +8,11 @@ const Summary = () => {
           <div className="tab-icon"><FaUserCircle/></div>
           <h3 className="tab-heading">PROFESSIONAL SUMMARY</h3>
           <p className="summary-body">
-          User-focused Front End Developer with a pixel perfect eye for design and 
-          deep understanding of usability goals. Perfectly marries 
-          functional requirements and creative elements to produce 
-          optimal interfaces. Skilled at managing time, projects, 
-          and resources to accomplish development goals. 
-          <br/>
-          Expert in Responsive web development, testing, and optimization. 
-          Works great with Javascript and Javascript libraries such 
-          as React and Nextjs. Making a switch to web3 
-          studying the blockchain technology
+         Experienced frontend engineer with a strong background of over 9years in the computer software industry. Skilled in problem-solving using HTML, CSS, TailwindCSS, JavaScript, React, NextJs, Shopify, WordPress and other Content management systems. Currently exploring the React Native and Web3 pathways.
+
+Passionate about teamwork and believe in the collective growth of the team. Committed to being a valuable contributor to any project, always willing to lend a hand to fellow team members when needed.
+
+Experienced in collaborating with scrum teams, participating in sprint planning, backlog refinement, and other scrum ceremonies.
           </p>
       </main>
   );
