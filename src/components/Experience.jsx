@@ -5,20 +5,30 @@ import './style.css'
 
 let workArr = [
     {
-        startdate: 'Dec,2021',
+        startdate: 'Dec,2022',
         enddate: 'Present',
-        workplace: 'Freelance Software Developer',
-        workpost: 'Freelance',
+        workplace: 'Senior Frontend Developer',
+        workpost: 'Clafiya',
         location: 'Lagos',
         bullet:[
-            'worked on the Frontend of the Afrodriods NFT Drone drop which was integrated with the smart contract',
-            'Developed the frontend with Reactjs',
+            'worked on the Frontend of the company product',
+            'Developed the frontend with Nextjs and VueJs',
             'Provided support with maintenance and upkeep of front end applications.',
-            'Designed and developed the www.everythingnice.me platform using Shopify',
-            'Worked on the updated version of the Skillup Africa Platform which i previoulsy worked on while with univelcity'
         ]
     },
-    {
+     {
+        startdate: 'Jul,2022',
+        enddate: 'Present',
+        workplace: 'Senior Frontend Developer',
+        workpost: 'BLK Labs',
+        location: 'Lagos',
+        bullet:[
+            'worked on the Frontend of the company product',
+            'Developed the frontend with Nextjs',
+            'Provided support with maintenance and upkeep of front end applications.',
+        ]
+    },
+      {
         startdate: 'March,2022',
         enddate: 'May, 2022',
         workplace: 'GenioPay',
@@ -31,6 +41,21 @@ let workArr = [
             'Worked on the several modules in relation to the company\'s fintech product'
         ]
     },
+    {
+        startdate: 'Dec,2021',
+        enddate: 'Jul 2022',
+        workplace: 'Freelance Software Developer',
+        workpost: 'Freelance',
+        location: 'Lagos',
+        bullet:[
+            'worked on the Frontend of the Afrodriods NFT Drone drop which was integrated with the smart contract',
+            'Developed the frontend with Reactjs',
+            'Provided support with maintenance and upkeep of front end applications.',
+            'Designed and developed the www.everythingnice.me platform using Shopify',
+            'Worked on the updated version of the Skillup Africa Platform which i previoulsy worked on while with univelcity'
+        ]
+    },
+  
     {
         startdate: 'Nov, 2020',
         enddate: 'Nov, 2021',
