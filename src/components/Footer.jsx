@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="foot-copy">
               <p>
-                 All Rights Reserved &copy;2022 Nsikak OwO
+                 All Rights Reserved &copy;2025 Nsikak OwO
               </p>
           </div>
       </main>
