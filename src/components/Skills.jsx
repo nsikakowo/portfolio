@@ -7,17 +7,18 @@ import './style.css'
 let skillArr = [
     'Javascript',
     'Reactjs',
+    "React Native",
     'CSS',
     "TailwindCSS",
 
     'Nextjs',
     'VueJs',
 'React Native',
-    'Wordpress',
+    'Typescript',
 'Firebase',
     'Shopify',
-    'Digital Marketing',
-    'Graphics Design',
+    'Framer motion',
+    'Algolia',
 
 ]
 
